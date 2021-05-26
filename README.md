@@ -93,3 +93,9 @@ Total monthly: **52.13 USD**
 
 ## Area of Improvement
 As we can see, costly component is a Lambda Data Scraper, we can potentially move this item into EC2 instances to deploy the scraping script to run periodically to scrap the data
+
+## How to Use 
+- Clone this repository into your local machine
+- You can create `terraform.tfvars` to modify the value of `variables.tf`
+- Run terraform init
+- Run terraform apply
