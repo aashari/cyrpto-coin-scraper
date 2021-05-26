@@ -1,0 +1,6 @@
+.terraform.lock.hcl
+./lambda-sources/*.zip
+*.tfstate
+*.backup
+.DS_Store
+.terraform
